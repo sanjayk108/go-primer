@@ -68,12 +68,3 @@ deploy:
        tag: latest
        repository: sanjayk108/go-primer
        registry: https://registry.hub.docker.com
-
-   - cng/cf-deploy:
-       api: $API
-       user: $USER
-       password: $PASSWORD
-       org: $ORG
-       space: $SPACE
-       appname: wercker-step-hello
-       docker_image: sanjayk108/go-primer
