@@ -63,7 +63,7 @@ deploy:
    - internal/docker-push:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
-       cmd: /pipeline/source/hello
+       cmd: /pipeline/source/hello-cloud
        port: "8080"
        tag: latest
        repository: sanjayk108/go-primer
